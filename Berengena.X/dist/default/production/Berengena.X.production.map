@@ -1,0 +1,55 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sat Sep 08 09:00:06 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000020    program   0x0000ae
+.config_300001_BUILD/DEFAULT/PRODUCTION/TRABAJO    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/TRABAJO    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/TRABAJO    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/TRABAJO    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/TRABAJO    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000020    0x0000cd      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+            185 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+             condicional1   0x00004a    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+             condicional2   0x000070    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+             condicional3   0x000096    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+             condicional4   0x0000bc    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+                configuro   0x000020    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+                   inicio   0x000030    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+                     papa   0x0000c6    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+           subcondicional   0x000040    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                configuro   0x000020    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+                   inicio   0x000030    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+           subcondicional   0x000040    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+             condicional1   0x00004a    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+             condicional2   0x000070    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+             condicional3   0x000096    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+             condicional4   0x0000bc    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+                     papa   0x0000c6    program     static C:\Users\user\MPLABXProjects\Berengena.X\trabajo and.asm
+
+
